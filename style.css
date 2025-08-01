@@ -1,0 +1,96 @@
+body{
+background-color: #efcbff;
+padding: 0px;
+margin: 0px;
+}
+.allContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+}
+#form-add{
+    display: grid;
+    grid-column: span 1;
+    width: 700px;
+    height: 300px;
+    gap: 10px;
+border-radius: 10px;
+    background-color: #7F0799;
+    padding: 10px;
+    box-shadow: 5px 5px 10px #0000005a;
+
+}
+h1{
+    font-family: 'Cinzel Decorative', cursive;
+    color: azure;
+}
+h2{
+    font-family: 'Cinzel Decorative', cursive;
+    color: azure;
+    text-align: center;
+}
+button{
+    font-family: 'Cinzel Decorative', cursive;
+    border-radius:7px;
+    border: none;
+    height: 45px;
+    width: 340px;
+    background-color: #efcbff;
+    color: #672a74;
+}
+#title{
+    border-radius:7px;
+    border: none;
+}
+#desc{
+    border-radius:7px;
+    border: none;
+}
+#url{
+    width: 350px;
+    height: 43px;
+    border-radius:7px;
+    border: none;
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  border-radius: 12px;}
+ .card-item {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  padding: 15px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+.card-item button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: #c62828;
+  padding: 5px;
+  transition: color 0.3s ease;
+}
+
+.card-item button:hover {
+  color: #b71c1c;
+  transform: scale(1.2);
+}
+.card-item h3,
+.card-item p {
+  font-family: 'Cinzel Decorative', cursive;
+  font-style: italic;
+  color: #672a74;
+  margin: 0.3em 0;
+}
